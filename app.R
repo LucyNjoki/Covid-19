@@ -48,7 +48,7 @@ ui <- fluidPage(
     )
 )
 
-# Define server logic required to draw a histogram
+# Define server logic to show Covid-19 trends
 server <- function(input, output) {
 
     output$covid19Trend <- renderPlot({
